@@ -686,3 +686,150 @@ svg {
 }
 
 /* Free seris end */
+
+/**** Services ****/
+
+/* Servicse seris start */
+
+.services {
+    margin-top: 90px;
+    margin-bottom: 400px;
+}
+
+.services__img-bj {
+    background-image: url(../images/servoces-bj.png);
+    background-size: 100% 85%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+
+}
+
+.services__img-star {
+    position: absolute;
+    right: 46%;
+    bottom: 39%;
+}
+
+.services__wrap {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.services__right-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    margin: 314px -180px 20px 0;
+}
+
+
+.services__our {
+    font-family: "Glacial Indifference";
+    font-size: 51px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: right;
+    letter-spacing: 7px;
+    color: #000000;
+}
+
+.services__name {
+    font-family: "Portland LDO";
+    font-size: 120px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: right;
+    letter-spacing: 20px;
+    color: #000000;
+}
+
+.services__text-info {
+    font-family: "Glacial Indifference";
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #948f87;
+    transform: translateY(200px);
+    width: 710px;
+    margin: 0 auto;
+}
+
+/* Servicse seris end */
+
+/* Hair seris start */
+.hair__img-bj {
+    background-image: url(../images/hair-bj.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 1734.1px;
+}
+
+
+.swiper-slide {
+    height: 500px;
+}
+
+body {
+    background: #e2e2e2;
+}
+
+.heir-cut {
+    width: 1652px;
+    height: 927px;
+    background: transparent;
+    margin: 100px auto;
+    position: relative;
+}
+
+.heir-left {
+    background: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: calc(100% - 331px);
+    border-radius: 100px 0 0 100px;
+    padding: 117px 394px 0 108px;
+    box-sizing: border-box;
+}
+
+.leftSlider {
+    height: 693px;
+    width: 100%;
+}
+
+.heir-right {
+    background: #D4BB96;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 662px;
+    border-radius: 331px;
+    overflow: hidden;
+}
+
+.rightSlider {
+    height: 927px;
+}
+
+.buttons {
+    position: absolute;
+    z-index: 3;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    right: 216px;
+    bottom: 66px;
+    border-radius: 100px;
+}
+
+/* Hair seris end */
