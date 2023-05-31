@@ -1,0 +1,401 @@
+/* fonts */
+@font-face {
+    font-family: 'GlacialIndifference';
+    src: url(../fonts/glacial-indifference/GlacialIndifference-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Portland';
+    src: url(../fonts/portland-ldo/Portland\ LDO\ Bold.ttf);
+}
+
+body {
+    font-family: 'GlacialIndifference';
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    line-height: 1.2;
+}
+
+* {
+    transition: all 0.3s linear;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+button:focus,
+textarea:focus,
+select:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+a:active,
+a:focus {
+    outline: 0;
+    outline: none !important;
+}
+
+a,
+img,
+span,
+button,
+input,
+textarea,
+svg {
+    transition: .3s all ease;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
+
+@media (min-width: 1920px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1244px;
+        margin: 0 auto;
+
+    }
+}
+
+
+/* all */
+.all-3 {
+    font-size: 61px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #000000;
+    letter-spacing: 20px;
+    margin-bottom: 46px;
+}
+
+.all-1 {
+    font-family: 'Portland';
+    border-color: #000000;
+    border-width: 1px;
+    letter-spacing: 20px;
+    font-size: 150px;
+}
+
+.text {
+    margin: 131px 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    font-family: "Glacial Indifference";
+    font-size: 25px;
+}
+
+/* all */
+
+
+/* About seris start */
+.about__img-bj {
+    background-image: url(../images/about-Shape.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.about__wrap-title {
+    padding: 312px 538px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__info-your {
+    margin: 0 auto;
+    max-width: 1145px;
+    font-family: "Glacial Indifference";
+    font-size: 51px;
+    text-align: center;
+    letter-spacing: 20px;
+    color: #000000;
+    padding-top: 110px;
+    padding-bottom: 170px;
+}
+
+.about__info-text {
+    margin: 0 auto;
+    margin-bottom: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 856px;
+}
+
+.about__info-text span {
+    font-family: "Glacial Indifference";
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #948f87;
+}
+
+/* About seris end */
+
+/* Fate seris start */
+.fate__img-bj {
+    background-image: url(../images/fate-bj.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-width: 100%;
+    height: 1279.4px;
+}
+
+.fate__img-mb {
+    background-image: url(../images/fate__img-bt.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-width: 100%;
+    height: 1279.4px;
+}
+
+.fate__wrap-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    margin: 131px 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    font-family: "Glacial Indifference";
+    font-size: 25px;
+    color: #948f87;
+}
+
+/* Fate seris end */
+
+/* Dream seris start */
+.dream__img-bj {
+    background-image: url(../images/dream-Shape.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-width: 100%;
+    height: 961.4px;
+}
+
+.dream__wrap-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+    margin: 155px 118px;
+}
+
+/* Dream seris end */
+
+/* Winning seris start */
+.winning {
+    position: relative;
+    overflow: hidden;
+    padding: 100px 0 200px 0;
+}
+
+.wimming__img-bj {
+    background-image: url(../images/warning-bj.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 1146px;
+    width: 121%;
+    transform: translate(-9%, -17%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.winning__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.winning__wrap h3 {
+    font-family: "Glacial Indifference";
+    font-size: 51px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 15px;
+    color: #000000;
+}
+
+.winning__wrap {
+    margin-top: 100px;
+    font-family: "Glacial Indifference";
+    font-size: 51px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 200px;
+    color: #000000;
+}
+/* Winning seris end */
+
+/* Our seris start */
+.our__wrap-title {
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.our__img-bj {
+    background-image: url(../images/our-1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-width: 100%;
+    height: 961.4px;
+}
+
+.our__img-bb {
+    background-image: url(../images/our-2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-width: 100%;
+    height: 961.4px;
+}
+
+.our__info-text {
+    font-family: "Glacial Indifference";
+    font-size: 25px;
+    color: #948f87;
+    max-width: 770px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    padding: 150px 0;
+}
+/* Our seris end */
+
+/* Footer srris start */
+.footer {
+    filter: drop-shadow(0px -10px 35px rgba(0, 0, 0, 0.16));
+    background: #ffffff
+}
+
+.footer__wrap {
+    margin: 77px 0 176px 0;
+}
+
+.footer__wrap-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 77px;
+}
+
+
+.footer__wrap-title h2 {
+    font-family: "Glacial Indifference";
+}
+
+
+.footer_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+}
+
+.footer__items a {
+    font-family: "Glacial Indifference";
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #D9D9D9;
+}
+
+.footer__wrap-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 0;
+}
+
+.footer__wrap-icons a {
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    background: #713c25;
+    border-color: #000000;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+.footer__wrap-icons a:hover {
+    transform: scale(1.1);
+}
+
+.footer__wrap-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Glacial Indifference";
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #000000;
+}
+/* Footer srris end */
+
+
+/*** Madonian ***/
