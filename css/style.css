@@ -90,7 +90,6 @@ svg {
     .container-xxl {
         max-width: 1244px;
         margin: 0 auto;
-
     }
 }
 
@@ -402,7 +401,6 @@ svg {
 
 
 /*** Madonian ***/
-
 /* miss seris start */
 .miss__wrap-img {
     background-image: url(../images/miss-bj.png);
@@ -494,7 +492,6 @@ svg {
     align-items: center;
     gap: 70px;
     transform: translateY(500px);
-
 }
 
 .fress__wrap-card-1 {
@@ -687,10 +684,13 @@ svg {
 
 /* Free seris end */
 
+
+
 /**** Services ****/
 
-/* Servicse seris start */
 
+
+/* Servicse seris start */
 .services {
     margin-top: 90px;
     margin-bottom: 400px;
@@ -702,7 +702,6 @@ svg {
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-
 }
 
 .services__img-star {
@@ -767,23 +766,24 @@ svg {
     background-size: 100% 100%;
     width: 100%;
     height: 1734.1px;
+    margin: -230px 0 -150px 0;
 }
 
+.hair__swiper-catalogs {
+    width: 100px;
+}
 
 .swiper-slide {
     height: 500px;
 }
 
-body {
-    background: #e2e2e2;
-}
-
-.heir-cut {
+.hair__swiper-catalogs {
     width: 1652px;
     height: 927px;
     background: transparent;
-    margin: 100px auto;
     position: relative;
+    transform: translateY(380px);
+    right: 15%;
 }
 
 .heir-left {
@@ -796,6 +796,57 @@ body {
     border-radius: 100px 0 0 100px;
     padding: 117px 394px 0 108px;
     box-sizing: border-box;
+    box-shadow: 0 0 20px #000000;
+}
+
+.swiper__top-text {
+    font-family: "Glacial Indifference";
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #948f87;
+    margin-bottom: 35px;
+}
+
+.swiper__title {
+    font-family: "Portland LDO";
+    font-size: 100px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    letter-spacing: 14px;
+    color: #000000;
+}
+
+.swiper__info-bottom {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.swiper__bottom-deg {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Glacial Indifference";
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    letter-spacing: 8px;
+    color: #000000;
+}
+
+.sapn {
+
+    font-family: "Glacial Indifference";
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: right;
+    letter-spacing: 8px;
+    color: #000000;
 }
 
 .leftSlider {
@@ -812,6 +863,7 @@ body {
     width: 662px;
     border-radius: 331px;
     overflow: hidden;
+    box-shadow: 0 -5px 5px -5px #000000cd;
 }
 
 .rightSlider {
@@ -825,11 +877,27 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 240px;
+    height: 99px;
     gap: 50px;
-    padding: 50px;
     right: 216px;
     bottom: 66px;
     border-radius: 100px;
+}
+
+.prev {
+    border-radius: 50%;
+    width: 72.6px;
+    height: 72.6px;
+    background: white;
+    transform: rotate(180deg);
+}
+
+.next {
+    border-radius: 50%;
+    width: 72.6px;
+    height: 72.6px;
+    background: white;
 }
 
 /* Hair seris end */
